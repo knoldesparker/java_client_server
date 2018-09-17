@@ -7,7 +7,7 @@ public class UDPEchoServer {
     private  static DatagramPacket inPacket, outPacket;
     private static byte[] buffer;
 
-    public static void server(){
+    public static void UDPserver(){
         System.out.println("Opening port...\n");
         try {
             datagramSocket = new DatagramSocket(PORT);
