@@ -9,7 +9,8 @@ public class UDPEchoClient {
     private static DatagramPacket inPacket, outPacket;
     private static byte[] buffer;
 
-    public static void UDPClient(){
+    //Run main from main class then run Client main
+    public static void main (String[] args){
         try {
             host = InetAddress.getLocalHost();
         }
