@@ -2,10 +2,12 @@ import java.net.*;
 import java.util.*;
 
 public class IPFinder {
-    public static void main(String[] args) {
-        String host;
+
+        private String host;
         Scanner input = new Scanner(System.in);
         InetAddress address;
+
+        public void getIP(){
         System.out.println("\n\nEnter host name: ");
         host = input.next();
         try {
@@ -15,6 +17,6 @@ public class IPFinder {
         catch (UnknownHostException uhEx){
             System.out.println("could not find " + host);
         }
-    }
+        }
 
 }
