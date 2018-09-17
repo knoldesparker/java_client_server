@@ -6,7 +6,7 @@ public class main {
 
         //ipFinder.getIP();
         localIPAdress.getLocal();
-        
+
 
     }
 }
